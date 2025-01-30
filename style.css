@@ -1,0 +1,198 @@
+body {
+font-family: sans-serif;
+margin: 0;
+padding: 0;
+background-color: #1e272d;
+color: #abab99;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #36454f;
+    border-bottom: 1px solid wheat ;
+    color: #bdec91;
+    padding: 0 6rem;
+    
+
+}
+
+h2 {
+  color: #84a367;
+}
+
+h3 {
+    color: #84a367;
+}
+
+
+.aboutme {
+    margin-left: 3rem;
+    color: #a1c67f;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+nav a {
+    color: #84a367;
+    text-decoration: none;
+    margin: 0, 1rem;
+    padding-top: 5rem;
+    padding-left: 5rem;
+}
+
+hr{
+    border: none;
+    height: 2px;
+    background-color: #8ca972;
+    margin: 30px 0;
+    width: 95%;
+    opacity: 0.5;
+}
+
+section {
+    padding: 2rem;
+}
+
+#about .about-content {
+    display: flex;
+    align-items: center; /*vertically center contents*/
+
+}
+
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 2rem;
+    object-fit: cover; /*  Ensures image fits within the circle*/
+}
+
+#projects .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 2rem;
+}
+
+.project {
+    border: 10px solid #ddd;
+    background-color:transparent;
+    border-radius: 10px;
+    color: #ebf3e3;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    padding-bottom: 5rem;
+    border: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);/* This is for mild shadow effect*/
+    transition: tranform 0.2s ease-in-out;/*smooth transition for hover effect*/
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.project-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.project img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px 0 0 8px; /*rounded top corners*/
+    margin-right: 1rem;
+    flex: 1 1 auto;
+    object-fit: cover;
+}
+
+.project-description {
+    flex: 1 1 200px;
+}
+
+.project h3 {
+    margin-top: 0;
+}
+.project:hover {
+    transform: translateY(-5px);/* move slightly on hover */
+}
+
+#mailtag {
+
+    color: #ddd;
+    text-decoration: none;
+
+}
+
+#mailtag :link {
+   color:#84a367 ;
+}
+
+
+
+
+#contakt {
+    color: #84a367;
+}
+
+footer {
+    background-color: #36454f;;
+    border-color:  1px solid wheat ;
+    color: #fff;
+    text-align: center;
+    border-top: 1px solid wheat  ;
+    padding: 1rem 0;
+}
+
+/*     */
+
+body {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
